@@ -23,7 +23,7 @@ fetch('https://free.currencyconverterapi.com/api/v5/currencies')
 
 // convert selected currencies
 function convert() {
-    document.getElementById("amountTo").innerHTML = '<p>Hahahaha</p>';
+    document.getElementById("amountTo").innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
     let from = document.getElementById("currencyFromList");
     from = from.options[from.selectedIndex].text;
     let to = document.getElementById("currencyToList");
