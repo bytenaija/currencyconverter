@@ -1,0 +1,47 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    width: 60%;
+    margin-top: 100px;
+}
+
+.row {
+    padding: 20px;
+}
+
+.select {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.form-group {
+    margin: 0 auto;
+}
+
+button,
+select,
+input {
+    height: 40px !important;
+    border-radius: 8px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: left;
+    width: 100%;
+    color: red
+}
+
+#amountTo {
+    text-align: center;
+    vertical-align: middle;
+    color: red;
+    padding-top: 1rem;
+}
